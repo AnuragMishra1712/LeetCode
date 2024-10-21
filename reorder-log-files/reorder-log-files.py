@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[str]
         """
         
-        digit,letter,res = [],[],[]
+        digit,letter = [],[]
         
         for log in logs:
             if log.split()[1].isdigit():
